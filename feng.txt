@@ -3,4 +3,4 @@ from PIL import Image
 img_path="dataset/train/ants/0013035.jpg"
 img=Image.open(img_path)
 print(img.size)#说明了图片中用的是size，tensor中用的是shape
-img.show("")
+img.show("picture")
